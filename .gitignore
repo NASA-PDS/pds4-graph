@@ -1,0 +1,73 @@
+# Python build, virtual environments, and buildouts
+venv
+__pycache__/
+dist/
+build/
+*.egg-info
+.*.cfg
+develop-eggs/
+.python-eggs/
+.eggs/
+pip-selfcheck.json
+.python-version
+
+# Python testing artifacts
+.coverage
+htmlcov
+.tox/
+
+# Object files
+*.o
+*.pkl
+*.py[ocd]
+
+# Libraries
+*.lib
+*.a
+
+# Eclipse files
+.settings/
+*.project
+*.classpath
+
+# Editor support
+.idea/
+*.iml
+.vscode
+*.sublime-*
+
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+lib/
+lib64/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*~
+.*.swp
+var/
+
+# other stuff
+*.log
+*.xpr
+bin/
+.*.swp
+
+# OS-specific artifacts
+.DS_Store
+._*
+
+# Exclusions
+!.coveragerc
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitkeep
